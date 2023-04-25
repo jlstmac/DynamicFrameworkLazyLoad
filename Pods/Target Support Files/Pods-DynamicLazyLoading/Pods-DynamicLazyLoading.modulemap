@@ -1,0 +1,6 @@
+framework module Pods_DynamicLazyLoading {
+  umbrella header "Pods-DynamicLazyLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}

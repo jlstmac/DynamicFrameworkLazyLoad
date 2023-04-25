@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76EE020E844BDD63DFFA79AF /* Pods_DynamicLazyLoading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8786FFABA392309D43EC4B1 /* Pods_DynamicLazyLoading.framework */; };
 		E67483D329F65FCA00717ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E67483D229F65FCA00717ACD /* AppDelegate.m */; };
 		E67483D629F65FCA00717ACD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E67483D529F65FCA00717ACD /* SceneDelegate.m */; };
 		E67483D929F65FCA00717ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67483D829F65FCA00717ACD /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		E67483DE29F65FCB00717ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67483DD29F65FCB00717ACD /* Assets.xcassets */; };
 		E67483E129F65FCB00717ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67483DF29F65FCB00717ACD /* LaunchScreen.storyboard */; };
 		E67483E429F65FCB00717ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E67483E329F65FCB00717ACD /* main.m */; };
+		E67483F429F6789900717ACD /* RouterAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E67483F329F6789900717ACD /* RouterAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6291D84BDDD96170DA5FC9DC /* Pods-DynamicLazyLoading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLazyLoading.release.xcconfig"; path = "Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading.release.xcconfig"; sourceTree = "<group>"; };
+		B8786FFABA392309D43EC4B1 /* Pods_DynamicLazyLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLazyLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67483CE29F65FCA00717ACD /* DynamicLazyLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLazyLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67483D129F65FCA00717ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E67483D229F65FCA00717ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,10 @@
 		E67483E029F65FCB00717ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67483E229F65FCB00717ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67483E329F65FCB00717ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E67483F229F6789900717ACD /* RouterAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterAdapter.h; sourceTree = "<group>"; };
+		E67483F329F6789900717ACD /* RouterAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterAdapter.m; sourceTree = "<group>"; };
+		E674840629F6854400717ACD /* MyDynamicFrameworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyDynamicFrameworkService.h; path = MyDynamicFramework/MyDynamicFramework/Classes/MyDynamicFrameworkService.h; sourceTree = SOURCE_ROOT; };
+		EC8FEE10BE3680081CB315B8 /* Pods-DynamicLazyLoading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLazyLoading.debug.xcconfig"; path = "Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EE020E844BDD63DFFA79AF /* Pods_DynamicLazyLoading.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B900D4270D4972A488507F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FEE10BE3680081CB315B8 /* Pods-DynamicLazyLoading.debug.xcconfig */,
+				6291D84BDDD96170DA5FC9DC /* Pods-DynamicLazyLoading.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2F22EE7F9210810C945C0A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8786FFABA392309D43EC4B1 /* Pods_DynamicLazyLoading.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E67483C529F65FCA00717ACD = {
 			isa = PBXGroup;
 			children = (
 				E67483D029F65FCA00717ACD /* DynamicLazyLoading */,
 				E67483CF29F65FCA00717ACD /* Products */,
+				1B900D4270D4972A488507F4 /* Pods */,
+				2F22EE7F9210810C945C0A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +89,7 @@
 		E67483D029F65FCA00717ACD /* DynamicLazyLoading */ = {
 			isa = PBXGroup;
 			children = (
+				E67483F529F678AF00717ACD /* RouterAdapter */,
 				E67483D129F65FCA00717ACD /* AppDelegate.h */,
 				E67483D229F65FCA00717ACD /* AppDelegate.m */,
 				E67483D429F65FCA00717ACD /* SceneDelegate.h */,
@@ -76,6 +105,24 @@
 			path = DynamicLazyLoading;
 			sourceTree = "<group>";
 		};
+		E67483F529F678AF00717ACD /* RouterAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				E67483F629F678C200717ACD /* Services */,
+				E67483F229F6789900717ACD /* RouterAdapter.h */,
+				E67483F329F6789900717ACD /* RouterAdapter.m */,
+			);
+			path = RouterAdapter;
+			sourceTree = "<group>";
+		};
+		E67483F629F678C200717ACD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E674840629F6854400717ACD /* MyDynamicFrameworkService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67483E729F65FCB00717ACD /* Build configuration list for PBXNativeTarget "DynamicLazyLoading" */;
 			buildPhases = (
+				1177480A4CC7DF68D89322FB /* [CP] Check Pods Manifest.lock */,
 				E67483CA29F65FCA00717ACD /* Sources */,
 				E67483CB29F65FCA00717ACD /* Frameworks */,
 				E67483CC29F65FCA00717ACD /* Resources */,
+				10E843B70BB3284A3041C920 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +190,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10E843B70BB3284A3041C920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1177480A4CC7DF68D89322FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicLazyLoading-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E67483CA29F65FCA00717ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,6 +240,7 @@
 				E67483D929F65FCA00717ACD /* ViewController.m in Sources */,
 				E67483D329F65FCA00717ACD /* AppDelegate.m in Sources */,
 				E67483E429F65FCB00717ACD /* main.m in Sources */,
+				E67483F429F6789900717ACD /* RouterAdapter.m in Sources */,
 				E67483D629F65FCA00717ACD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,11 +379,13 @@
 		};
 		E67483E829F65FCB00717ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8FEE10BE3680081CB315B8 /* Pods-DynamicLazyLoading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicLazyLoading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +393,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,11 +408,13 @@
 		};
 		E67483E929F65FCB00717ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6291D84BDDD96170DA5FC9DC /* Pods-DynamicLazyLoading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicLazyLoading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +422,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

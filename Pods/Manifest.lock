@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MyDynamicFramework (0.1.0):
+    - Router
+  - Router (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - MyDynamicFramework (from `MyDynamicFramework/`)
+  - Router (from `Router/`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  MyDynamicFramework:
+    :path: MyDynamicFramework/
+  Router:
+    :path: Router/
+
+SPEC CHECKSUMS:
+  AFNetworking: 19827bce8c8d25b16bea185837cb66976c23f8fe
+  MyDynamicFramework: 288374540acf5e842df5852fba0399d10dfdd619
+  Router: d26bd4be090e2ee6a81a76af808a3f6fa73a1d6d
+
+PODFILE CHECKSUM: 4cf6e97fcdfe1b92944fc2b5aafd2efa953c8bf3
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DynamicLazyLoading/Pods-DynamicLazyLoading-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/MyDynamicFramework/MyDynamicFramework.framework
+${BUILT_PRODUCTS_DIR}/Router/Router.framework

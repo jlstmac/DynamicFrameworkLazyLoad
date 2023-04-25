@@ -1,0 +1,28 @@
+{
+  "name": "MyDynamicFramework",
+  "version": "0.1.0",
+  "summary": "A short description of MyDynamicFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jlstmac/MyDynamicFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jlstmac": "657251490@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jlstmac/MyDynamicFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyDynamicFramework/Classes/**/*",
+  "public_header_files": "MyDynamicFramework/Classes/MyDynamicFrameworkService.h",
+  "dependencies": {
+    "Router": [
+
+    ]
+  }
+}
