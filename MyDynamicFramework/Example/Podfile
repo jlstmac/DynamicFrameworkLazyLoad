@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyDynamicFramework_Tests' do
+  pod 'MyDynamicFramework', :path => '../'
+  
+  
+end
