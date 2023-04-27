@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "01C530A0-7BED-4EDD-AFB8-E2ED52C9CF81"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Router/Router/Classes/Router.m"
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CC761169-33E6-4E79-991D-B8F263B90E09"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Router/Router/Classes/Router.m"
@@ -55,65 +55,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3EA7801C-93A7-4267-A232-06ABB084A064"
+            uuid = "10A850E4-7DF0-43D5-A64E-8E8E8766E476"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DynamicLazyLoading/RouterAdapter/RouterAdapter.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "-myDFService"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-didFrameworkLoaded:"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "602B7B34-D7A9-40FC-97B8-456E3DD0F5E4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MyDynamicFramework/MyDynamicFramework/Classes/MyDynamicFrameworkService.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-pushToVC"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "602B7B34-D7A9-40FC-97B8-456E3DD0F5E4 - 182ac10165b13b38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MyDynamicFrameworkService pushToVC]"
-                  moduleName = "MyDynamicFramework"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jianglinshan/Documents/Dev/DynamicLazyLoading/MyDynamicFramework/MyDynamicFramework/Classes/MyDynamicFrameworkService.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "602B7B34-D7A9-40FC-97B8-456E3DD0F5E4 - 182ac10165b13b38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MyDynamicFrameworkService pushToVC]"
-                  moduleName = "MyDynamicFramework"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jianglinshan/Documents/Dev/DynamicLazyLoading/MyDynamicFramework/MyDynamicFramework/Classes/MyDynamicFrameworkService.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
